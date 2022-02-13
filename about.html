@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Chess Academy</title>
+    <link rel="stylesheet" href="style.css">
+    
+<script src="https://use.fontawesome.com/d237644818.js"></script>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="index.html#learn">LEARN</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        
+                    </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <h1>About Us</h1>
+    </section>
+    
+    
+    <section class="about-us">
+        
+            <div class="about-col">
+            <h1 >Our Story</h1>
+            <p>Chess Academy was created with a bold spirit and a mighty objective: to offer the best online chess learning software at a low price, in order to make chess accessible to as many people as possible.<br>Today, many people - from parents and teachers to neuroscientists - are aware of the benefits of chess. Janton van Apeldoorn, who started Chessity in 2011, experienced this first-hand. As a boy, he was struggling hard at school. Chess threw him a lifeline and helped him overcome his problems. With Chess Academy, he set out on a personal mission to do the same for others.<br><em>Chess is a gift to the brain.</em><br>Chess Academy is about enabling people throughout the world to experience the benefits of chess.</p>
+            
+            
+        
+        </div>
+    </section>
+    
+   
+    
+    
+    <!-- ---FOOTER ----->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Chess Academy is a chess tutor for beginners, professionals and children. Our mission is to popularize chess<br> - as a game and personal development tool - all over the world.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        
+    </section>
+    
+    
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    </script>    
+    
+</body>
+</html>

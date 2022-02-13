@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Chess Academy</title>
+    <link rel="stylesheet" href="style.css">
+    
+<script src="https://use.fontawesome.com/d237644818.js"></script>
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="index.html#learn">LEARN</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        
+                    </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+        <h1>Learning Chess is fun and easy</h1>
+            <p>Here you can learn chess simply and quickly. How do the pieces move? <br>
+                What are good tactics? How do you checkmate?
+            </p>
+            <a href="#learn" class="all-btn">Start Learning</a>
+        </div>
+    </section>
+    
+    <section class="learn" id="learn">
+       
+        <h1>Learning chess doesn’t have to be hard</h1>
+        <p>Chess can be a difficult game. But it’s not hard to teach how to play it.<br>You will get hooked on chess with our approach. Guaranteed! It is that much fun.</p>
+           
+        <div class="row">
+            <div class="learn-col" onclick="window.open('contact.html','_self')">
+                <h3>Learn Now</h3>
+                <p>Learning chess is fun here! Playfully you learn the rules of chess, tactics, attack and defense.</p>
+            </div>
+            <div class="learn-col" onclick="window.open('https://lichess.org/','mywindow');">
+                <h3>Play Now</h3>
+                <p>You already know chess, then play then play againts other players online</p>
+            </div>
+            <div class="learn-col" onclick="window.open('https://www.youtube.com/watch?v=GQvR_fLkNKo&list=PLQKBpQZcRycrvUUxLdVmlfMChJS0S5Zw0','mywindow');">
+                <h3>Other Resorces</h3>
+                <p>Other resorce for itermediate players looking to get better and improve</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-----------LOCATIONS-------->
+    <section class="locations">
+        <h1>Campus Locations</h1>
+        <div class="row">
+            <div class="loc-col">
+                <img src="images/zagreb.jpg" height="500px">
+                <div class="layer">
+                    <h3>ZAGREB</h3>
+                </div>
+            </div>
+            <div class="loc-col">
+                <img src="images/Osijek.jpg">
+                <div class="layer">
+                    <h3>OSIJEK</h3>
+                </div>
+            </div>
+        
+            <div class="loc-col">
+                <img src="images/Beograd.jpg" height="500px">
+                <div class="layer">
+                    <h3>BEOGRAD</h3>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    
+    
+    
+    <!---- REVIEWS-------->
+    
+    <section class="reviews">
+        <h1>What our students say</h1>
+        
+        <div class="row">
+            <div class="reviews-col">
+                <img src="images/CBarkley.jpg">
+            <div>
+                <p>"I really love working on my Learning Chess lessons and it brings me a lot of satisfaction! Throughout my life, I’ve always wanted to learn how to play (really play) chess. I developed an interest in it later in life and learning it from friends and books never really did the trick. Finding the Learning Chess program has fit the bill exactly!
+                </p>
+                <h3>Charles Barkley
+                </h3>
+                </div>
+            </div>
+             <div class="reviews-col">
+                 <img src="images/Tolkien.jpg">
+            <div>
+                <p>"I am impressed very much by your great chess lessons. It is just like having a great and kind teacher beside you. I can feel that I am making such good progress and loving chess even more. "
+                </p>
+                <h3>J.R.R Tolkien
+                </h3>
+                </div>
+            </div>
+             
+        </div>
+    </section>
+    
+    <section class="cta">
+        <h1>Enroll for our online chess courses<br>or in person lessons anywhere<br> from the world</h1>
+        <a href="contact.html" class="all-btn">CONTACT US</a>
+    </section>
+    
+    
+    <!-- ---FOOTER ----->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Chess Academy is a chess tutor for beginners, professionals and children. Our mission is to popularize chess<br> - as a game and personal development tool - all over the world.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        
+    </section>
+    
+    
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    </script>    
+    
+</body>
+</html>
